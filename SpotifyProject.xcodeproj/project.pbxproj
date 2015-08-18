@@ -15,6 +15,8 @@
 		9761E0C91B80243100D2D083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9761E0C71B80243100D2D083 /* LaunchScreen.storyboard */; };
 		9761E0D41B80243100D2D083 /* SpotifyProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9761E0D31B80243100D2D083 /* SpotifyProjectTests.m */; };
 		9761E0DF1B80243100D2D083 /* SpotifyProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9761E0DE1B80243100D2D083 /* SpotifyProjectUITests.m */; };
+		9761E0F01B80292B00D2D083 /* cenfotec.png in Resources */ = {isa = PBXBuildFile; fileRef = 9761E0EE1B80292B00D2D083 /* cenfotec.png */; };
+		9761E0F21B803F1700D2D083 /* papi4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9761E0F11B803F1700D2D083 /* papi4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9761E0DA1B80243100D2D083 /* SpotifyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9761E0DE1B80243100D2D083 /* SpotifyProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotifyProjectUITests.m; sourceTree = "<group>"; };
 		9761E0E01B80243100D2D083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9761E0EE1B80292B00D2D083 /* cenfotec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cenfotec.png; sourceTree = "<group>"; };
+		9761E0F11B803F1700D2D083 /* papi4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = papi4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		9761E0AD1B80243000D2D083 = {
 			isa = PBXGroup;
 			children = (
+				9761E0EC1B8028A400D2D083 /* images */,
 				9761E0B81B80243000D2D083 /* SpotifyProject */,
 				9761E0D21B80243100D2D083 /* SpotifyProjectTests */,
 				9761E0DD1B80243100D2D083 /* SpotifyProjectUITests */,
@@ -138,6 +143,15 @@
 				9761E0E01B80243100D2D083 /* Info.plist */,
 			);
 			path = SpotifyProjectUITests;
+			sourceTree = "<group>";
+		};
+		9761E0EC1B8028A400D2D083 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9761E0F11B803F1700D2D083 /* papi4.png */,
+				9761E0EE1B80292B00D2D083 /* cenfotec.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +257,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9761E0F21B803F1700D2D083 /* papi4.png in Resources */,
 				9761E0C91B80243100D2D083 /* LaunchScreen.storyboard in Resources */,
+				9761E0F01B80292B00D2D083 /* cenfotec.png in Resources */,
 				9761E0C61B80243100D2D083 /* Assets.xcassets in Resources */,
 				9761E0C41B80243100D2D083 /* Main.storyboard in Resources */,
 			);
